@@ -1,9 +1,9 @@
 const dbConfig = {
   HOST: 'localhost',
-  USER: process.env.DB_USER,
-  PASSWORD: process.env.DB_PW,
-  DB: process.env.DB_TABLE,
-  PORT: process.env.DB_PORT,
+  USER: 'root',
+  PASSWORD: 'mysql-zensave',
+  DB: 'zensave',
+  PORT: '3306',
 
   dialect: 'mysql',
   pool: {
